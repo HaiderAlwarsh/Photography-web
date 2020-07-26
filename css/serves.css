@@ -1,0 +1,520 @@
+/* __________ Start maine-sec __________ */
+
+.maine-sec {
+    max-height: 16vh;
+    background: url(../images/main-background.jpg) no-repeat black top;
+    background-size: cover;
+}
+
+.maine-container {
+    background-color: rgba(245, 146, 45, 0.2);
+}
+
+
+.transition {
+    text-align: center;
+    margin-left: 11%;
+}
+
+.transition h2 {
+    color: #F5922D;
+    font-size: 2rem;
+}
+
+.transition a {
+    color: #fff;
+    text-decoration: none;
+    font-size: .7rem;
+
+}
+
+.current-page {
+    color: #F5922D;
+}
+
+.arrow {
+    color: #fff;
+    margin: 0 .3rem;
+    font-size: .7rem;
+}
+
+/* __________ End maine-sec __________ */
+
+/* __________ Start sec3 __________ */
+
+.cards {
+    width: 100%;
+    height: 100%;
+    margin: 4rem 0 11rem;
+}
+
+/* __________ End sec3 __________ */
+
+
+/* __________ Start sec4 __________ */
+
+.sec4 {
+    background-color: #F8F9FA;
+}
+
+.sec4-text {
+    margin-bottom: 5rem;
+}
+
+/* __________ End sec4 __________ */
+
+
+/* __________ Start about-Us sec-2(ourTeam) and Start address-sec  __________ */
+
+
+
+.ourTeam,
+.address-sec {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.ourTeam-container,
+.address-container {
+    width: 100%;
+    height: 100%;
+}
+
+.ourTeam-element,
+.address-element {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.ourTeam-header {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    padding-top: 1.5rem;
+    color: #F5922D;
+    font-size: 1.9rem;
+}
+
+.ourTeam-cards,
+.address-cards {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.ourTeam-card {
+    width: 60%;
+    height: 22rem;
+    border: 1px solid #F5922D;
+    border-radius: 2.2rem;
+    box-shadow: 0px 0px 25px -12px #000;
+    margin-bottom: 3rem;
+
+}
+
+.ourTeam-card img {
+    margin-top: 3rem;
+    border-radius: 4rem;
+}
+
+.ourTeam-card h3,
+.address-card h3 {
+    color: #F5922D;
+    font-size: 1.5rem;
+}
+
+.ourTeam-card p,
+.address-card p {
+    color: #F5922D;
+    font-size: 1.3rem;
+}
+
+.ourTeam-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.ourTeam-social a {
+    text-decoration: none;
+    margin: 0 .5rem 1rem;
+}
+
+.ourTeam-social i {
+    color: #F5922D;
+    font-size: 1.3rem;
+}
+
+.ourTeam-card:hover {
+    background-color: #F5922D;
+    transition: .5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.ourTeam-card:hover img {
+    transform: rotateZ(-20deg);
+    transition: .5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.ourTeam-card:hover h3 {
+    color: #fff;
+    transition: .5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.ourTeam-card:hover p {
+    color: #fff;
+    transition: .5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.ourTeam-card:hover .ourTeam-social i {
+    color: #fff;
+    transition: .5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+/* __________ End about-Us sec-2(ourTeam) and End address-sec  __________ */
+
+/* __________ Start map-sec  __________ */
+.map-sec {
+    width: 100%;
+    height: auto;
+    background-color: #F8F9FA;
+}
+
+.map-container {
+    width: 100%;
+    height: 100%;
+}
+
+.map-element {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.map-header {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    padding-top: 1.5rem;
+    color: #F5922D;
+    font-size: 1.9rem;
+}
+
+.map-map iframe {
+    margin: 3rem 0 5rem;
+    width: 80%;
+    height: 350px;
+}
+
+/* __________ End map-sec  __________ */
+
+/* __________ Start address-sec  __________ */
+
+.address-card {
+    width: 60%;
+    height: 20rem;
+    border: 1px solid #F5922D;
+    margin-bottom: 3rem;
+    text-align: center;
+    position: relative;
+    margin-top: 4rem;
+    background-color: #F8F9FA;
+}
+
+.address-card h3 {
+    margin-top: 4rem;
+}
+
+.address-card1::after {
+    content: '\f106';
+    font: normal normal normal 3rem Flaticon;
+    width: 60px;
+    height: 60px;
+    top: -30px;
+    border-radius: 5rem;
+    position: absolute;
+    background-color: #F5922D;
+    line-height: 60px;
+    text-align: center;
+    right: 50%;
+    transform: translateX(50%);
+    color: #F8F9FA;
+
+}
+
+
+.address-card2::after {
+    content: '\f104';
+    font: normal normal normal 3rem Flaticon;
+    width: 60px;
+    height: 60px;
+    top: -30px;
+    border-radius: 5rem;
+    position: absolute;
+    background-color: #F5922D;
+    line-height: 60px;
+    text-align: center;
+    right: 50%;
+    transform: translateX(50%);
+    color: #F8F9FA;
+
+}
+
+
+.address-card3::after {
+    content: '\f105';
+    font: normal normal normal 3rem Flaticon;
+    width: 60px;
+    height: 60px;
+    top: -30px;
+    border-radius: 5rem;
+    position: absolute;
+    background-color: #F5922D;
+    line-height: 60px;
+    text-align: center;
+    right: 50%;
+    transform: translateX(50%);
+    color: #F8F9FA;
+
+}
+
+
+/* __________ End address-sec  __________ */
+
+/* __________ Start childrenImg-sec  __________ */
+
+.childrenImg-header {
+    margin-bottom: 5rem;
+}
+
+/* __________ End childrenImg-sec  __________ */
+
+@media(min-width:500px) {
+
+    .ourTeam-element,
+    .address-element {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ourTeam-cards,
+    .address-cards {
+        width: 500px;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        margin-top: 4rem;
+        justify-content: space-around;
+    }
+
+    .ourTeam-card,
+    .address-card {
+        width: 60%;
+        height: 22rem
+    }
+
+    /* __________ Start map-sec  __________ */
+
+    /* __________ End map-sec  __________ */
+
+}
+
+
+
+@media(min-width:599px) {
+    .maine-sec {
+        max-height: 17vh;
+    }
+}
+
+@media(min-width:700px) {
+
+    .maine-sec {
+        max-height: 20vh;
+    }
+
+    .transition h2 {
+        color: #F5922D;
+        font-size: 2.5rem;
+    }
+
+    .transition a {
+        font-size: 1rem;
+    }
+
+    .arrow {
+        font-size: 1rem;
+    }
+
+    /* __________ Start about-Us sec-2(ourTeam)  __________ */
+
+    .ourTeam-element,
+    .address-element {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ourTeam-cards,
+    .address-cards {
+        width: 640px;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        margin-top: 4rem;
+        justify-content: space-around;
+    }
+
+    .ourTeam-card {
+        width: 47%;
+        height: 24rem
+    }
+
+
+    .address-card {
+        width: 30%;
+
+    }
+
+    /* __________ End about-Us sec-2(ourTeam)  __________ */
+
+}
+
+
+@media(min-width:900px) {
+    .maine-sec {
+        max-height: 25vh;
+    }
+
+    .map-map iframe {
+        height: 400px;
+    }
+}
+
+@media(min-width:1024px) {
+    .maine-sec {
+        max-height: 30vh;
+    }
+
+    .address-element {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .address-cards {
+        width: 900px;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        margin-top: 4rem;
+        justify-content: space-around;
+    }
+
+
+
+    .address-card {
+        width: 30%;
+
+    }
+
+
+
+}
+
+
+@media(min-width:1200px) {
+    .maine-sec {
+        max-height: 33vh;
+    }
+
+    .transition h2 {
+        color: #F5922D;
+        font-size: 2.5rem;
+    }
+
+    .transition a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.1rem;
+
+    }
+
+    .arrow {
+        color: #fff;
+        margin: 0 .3rem;
+        font-size: 1.1rem;
+    }
+
+}
+
+
+@media(min-width:1400px) {
+    .maine-sec {
+        max-height: 38vh;
+    }
+
+    .maine-sec {
+        max-height: 33vh;
+    }
+
+    .transition h2 {
+        color: #F5922D;
+        font-size: 3.2rem;
+    }
+
+    .transition a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.3rem;
+
+    }
+
+    .arrow {
+        color: #fff;
+        margin: 0 .3rem;
+        font-size: 1.3rem;
+    }
+
+
+    .map-map iframe {
+        height: 450px;
+    }
+}
+
+
+@media(min-width:1600px) {
+    .maine-sec {
+        max-height: 44vh;
+    }
+}
+
+@media(min-width:1800px) {
+    .maine-sec {
+        max-height: 48vh;
+    }
+
+
+}
